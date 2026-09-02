@@ -1,7 +1,7 @@
 var game= {
  exponent: 0,
  doubling: 1,
- divisionCost: 5,
+ divisionCost: 1,
  infGain: 0,
  equivalent: 0,
  infinityPoints: 0,
