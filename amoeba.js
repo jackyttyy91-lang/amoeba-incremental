@@ -13,7 +13,7 @@ function buyGrowth(){
   if(game.exponent >= game.divisionCost){
     game.exponent -= game.divisionCost;
     game.doubling += 1 * game.infMul;
-    game.divisionCost *= 1.3;
+    game.divisionCost *= 1.1;
     game.divisionCost = Math.floor(game.divisionCost);
     
   }
